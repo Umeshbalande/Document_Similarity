@@ -3,12 +3,12 @@ This repository contains a Flask app that can be used to calculate the similarit
 
 To use the app, simply follow these steps:
 
-Clone the repository.
-Install the dependencies.
-Start the Flask server.
-Enter two texts into the text boxes and click on the "Submit" button.
-The app will then calculate the similarity between the two texts and display the results.
-Here are some additional details about the app:
+- Clone the repository.
+- Install the dependencies.
+- Start the Flask server.
+- Enter two texts into the text boxes and click on the "Submit" button.
+- The app will then calculate the similarity between the two texts and display the results.
+- Here are some additional details about the app:
 
 The app is written in Python.
 The app uses the Flask framework.
