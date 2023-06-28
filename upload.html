@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap CSS -->
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Upload Files</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Upload two text files</h1>
+      <form action="/cosine_similarity" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="file1">File 1</label>
+          <input type="file" class="form-control-file" id="file1" name="file1">
+        </div>
+        <div class="form-group">
+          <label for="file2">File 2</label>
+          <input type="file" class="form-control-file" id="file2" name="file2">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
