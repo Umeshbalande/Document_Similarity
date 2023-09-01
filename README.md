@@ -7,6 +7,7 @@ To use the app, simply follow these steps:
 - Enter two texts into the text boxes and click on the "Submit" button.
 - The app will then calculate the similarity between the two texts and display the results.
 - Here are some additional details about the app:
+- here two text file for document text (section_66.txt and section_67.txt)
 
 The app is written in Python.
 The app uses the Flask framework.
