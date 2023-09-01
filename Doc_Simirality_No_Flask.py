@@ -4,7 +4,7 @@ import numpy as np
 
 # File paths
 text1_path = "section_66.txt"
-text2_path = "section_66.txt"
+text2_path = "section_67.txt"
 
 # Read the files
 with open(text1_path, 'r', encoding='utf-8') as file:
