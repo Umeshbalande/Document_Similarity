@@ -3,8 +3,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
 # File paths
-text1_path = "F:\Company_Data\CHAPTER_Script\Chapters\Class_8\Hindi\sections\section_.txt"
-text2_path = "F:\Company_Data\CHAPTER_Script\Chapters\Class_8\science\sections\section_23.txt"
+text1_path = "section_66.txt"
+text2_path = "section_66.txt"
 
 # Read the files
 with open(text1_path, 'r', encoding='utf-8') as file:
