@@ -1,4 +1,4 @@
-# How to calculate the similarity between two documents
+# How to calculate the similarity between two documents using SentenceTransformer model
 This repository contains a Flask app that can be used to calculate the similarity between two documents. The app uses the __SentenceTransformer model__, which is a pre-trained model that can be used to represent documents as vectors. The cosine similarity between two vectors is then used to measure the similarity between the two documents.
 
 To use the app, simply follow these steps:
@@ -12,6 +12,6 @@ To use the app, simply follow these steps:
 
 The app is written in Python.
 The app uses the Flask framework.
-The app uses the SentenceTransformer model.
+The app uses the pretrained model from hugging Face SentenceTransformer model .
 The app can be used to calculate the similarity between any two documents.
 I hope this helps!
